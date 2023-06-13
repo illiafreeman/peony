@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'fontt';
-    src: url('../fonts/saudagar.ttf') format('opentype');
-}
+
 
 @import '_var';
 @import '_help';
@@ -59,7 +56,7 @@ body {
         line-height: 19px;
         text-transform: uppercase;
         position: relative;
-        color: $violet;
+        color: $white;
         &:before {
             content: "";
             width: 0;
@@ -97,7 +94,7 @@ body {
         a {
             text-transform: uppercase;
             position: relative;
-            color: $violet;
+            color: $white;
             &:before {
                 content: "";
                 height: 1px;
@@ -172,7 +169,7 @@ body {
         position: relative;
         text-transform: uppercase;
         font-weight: 400;
-        color: $violet;
+        color: $white;
 
         &:before {
             content: "";
@@ -249,7 +246,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     transition: $transition;
-    background: $violet;
+    background: $white;
 
     &:hover {
         background: #4D2F51;
@@ -266,6 +263,7 @@ body {
     padding: 0;
     justify-content: space-between;
     gap: 40px;
+    background: url(../img/intro.jpg) no-repeat center center / contain;
     &__desc {
         display: flex;
         flex-direction: column;
@@ -397,7 +395,7 @@ body {
     
     &__container {
         padding: 76px 130px;
-        background: $violet;
+        background: $white;
         border-radius: 60px;
     }
 }
@@ -423,7 +421,7 @@ body {
         font-family: $fontm;
         font-size: 98px;
         line-height: 98px;
-        color: $violet;
+        color: $white;
     }
 
     &__item-text {
@@ -640,7 +638,7 @@ body {
         font-size: 30px;
         line-height: 42px;
         font-family: $fontm;
-        color: $violet;
+        color: $white;
         margin-bottom: 10px;
         height: 46px;
         overflow: hidden;
@@ -675,7 +673,7 @@ body {
         width: 14px;
         height: 25px;
         transition: $transition;
-        fill: $violet;
+        fill: $white;
     }
     
     &:before, &:after{
@@ -815,7 +813,7 @@ body {
 
     &__desc {
         flex: 1 0 auto;
-        background: $violet;
+        background: $white;
         color: #fff;
         padding: 76px 100px;
         flex-direction: column;
@@ -909,7 +907,7 @@ body {
         &.active{
             .tab__btn{
                 color: #fff;
-                background-color: $violet;
+                background-color: $white;
             }
         }
     }
@@ -927,7 +925,7 @@ body {
         font-weight: 400;
         &:hover{
             color: #fff;
-            background-color: $violet;
+            background-color: $white;
         }
     }
     &__wrap {}
@@ -960,7 +958,7 @@ body {
     }
     &__cost {
         font-weight: 700;
-        color: $violet;
+        color: $white;
     }
     &__desc {
         font-size: 14px;

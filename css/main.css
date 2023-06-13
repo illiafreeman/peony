@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "fontt";
-  src: url("../fonts/saudagar.ttf") format("opentype");
-}
 * {
   box-sizing: border-box;
 }
@@ -2059,7 +2055,7 @@ body {
   line-height: 19px;
   text-transform: uppercase;
   position: relative;
-  color: #7D5182;
+  color: #fff;
 }
 .footer__nav-link:before {
   content: "";
@@ -2096,7 +2092,7 @@ body {
 .footer__copy a {
   text-transform: uppercase;
   position: relative;
-  color: #7D5182;
+  color: #fff;
 }
 .footer__copy a:before {
   content: "";
@@ -2166,7 +2162,7 @@ body {
   position: relative;
   text-transform: uppercase;
   font-weight: 400;
-  color: #7D5182;
+  color: #fff;
 }
 .header-nav__link:before {
   content: "";
@@ -2233,7 +2229,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   transition: all 0.2s ease-in-out;
-  background: #7D5182;
+  background: #fff;
 }
 .btn:hover {
   background: #4D2F51;
@@ -2248,6 +2244,7 @@ body {
   padding: 0;
   justify-content: space-between;
   gap: 40px;
+  background: url(../img/intro.jpg) no-repeat center center/contain;
 }
 .intro__desc {
   display: flex;
@@ -2359,7 +2356,7 @@ body {
 }
 .wide__container {
   padding: 76px 130px;
-  background: #7D5182;
+  background: #fff;
   border-radius: 60px;
 }
 
@@ -2381,7 +2378,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 98px;
   line-height: 98px;
-  color: #7D5182;
+  color: #fff;
 }
 .why__item-text {
   font-size: 18px;
@@ -2568,7 +2565,7 @@ body {
   font-size: 30px;
   line-height: 42px;
   font-family: "Montserrat", sans-serif;
-  color: #7D5182;
+  color: #fff;
   margin-bottom: 10px;
   height: 46px;
   overflow: hidden;
@@ -2603,7 +2600,7 @@ body {
   width: 14px;
   height: 25px;
   transition: all 0.2s ease-in-out;
-  fill: #7D5182;
+  fill: #fff;
 }
 .slick-prev:before, .slick-prev:after, .slick-next:before, .slick-next:after {
   display: none;
@@ -2730,7 +2727,7 @@ body {
 }
 .contact__desc {
   flex: 1 0 auto;
-  background: #7D5182;
+  background: #fff;
   color: #fff;
   padding: 76px 100px;
   flex-direction: column;
@@ -2815,7 +2812,7 @@ body {
 }
 .tab__item.active .tab__btn {
   color: #fff;
-  background-color: #7D5182;
+  background-color: #fff;
 }
 .tab__btn {
   padding: 0px 32px;
@@ -2832,7 +2829,7 @@ body {
 }
 .tab__btn:hover {
   color: #fff;
-  background-color: #7D5182;
+  background-color: #fff;
 }
 .tab__content {
   display: none;
@@ -2862,7 +2859,7 @@ body {
 }
 .price__cost {
   font-weight: 700;
-  color: #7D5182;
+  color: #fff;
 }
 .price__desc {
   font-size: 14px;
@@ -2996,7 +2993,6 @@ body {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #7D5182;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -3305,9 +3301,6 @@ body {
   }
   .studio__item {
     margin: 0 40px;
-  }
-  .slick-prev:hover svg, .slick-next:hover svg {
-    fill: #7D5182;
   }
   .slick-next:hover svg {
     transform: rotate(180deg);

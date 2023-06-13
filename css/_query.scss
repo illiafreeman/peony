@@ -128,7 +128,7 @@
         position: absolute;
         height: 2px;
         width: 100%;
-        background: $violet;
+        //background: $violet;
         border-radius: 1px;
         opacity: 1;
         left: 0;
@@ -443,7 +443,7 @@
         margin: 0 40px;
     }
     .slick-prev:hover svg, .slick-next:hover svg {
-        fill: $violet;
+        //fill: $violet;
     }
     .slick-next:hover svg {
         transform: rotate(180deg);
