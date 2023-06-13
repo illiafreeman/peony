@@ -16,8 +16,8 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     color: $black;
-    font-family: $font;
-    font-weight: 300;
+    font-family: $fontm;
+    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     box-sizing: border-box;
@@ -302,7 +302,7 @@ body {
 }
 
 .title {
-    font-family: $fontt;
+    font-family: $fontm;
     font-weight: 400;
     font-size: 98px;
     line-height: 104px;
@@ -420,7 +420,7 @@ body {
     }
 
     &__item-num {
-        font-family: $fontt;
+        font-family: $fontm;
         font-size: 98px;
         line-height: 98px;
         color: $violet;
@@ -639,7 +639,7 @@ body {
     &__name {
         font-size: 30px;
         line-height: 42px;
-        font-family: $fontt;
+        font-family: $fontm;
         color: $violet;
         margin-bottom: 10px;
         height: 46px;
