@@ -263,7 +263,7 @@ body {
     padding: 0;
     justify-content: space-between;
     gap: 40px;
-    background: url(../img/intro.jpg) no-repeat center center / contain;
+    background: url(../img/intro.jpg) no-repeat center center / cover;
     &__desc {
         display: flex;
         flex-direction: column;
