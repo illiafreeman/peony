@@ -12,6 +12,12 @@ $(document).ready(function () {
         $('body').removeClass('oh');
         $('#hamburger').removeClass('open');
     });
+    if ($(window).scrollTop() >= 1) {
+        $('.header').addClass('fixed');
+    }
+    else {
+        $('.header').removeClass('fixed');
+    }
 
     /*end top menu toggle*/
 
@@ -79,7 +85,10 @@ if ($(window).width() > 1280) {
         });
     }
 }
-
+$('.review__more').click(function() {
+    $(this).parent().addClass('full');
+    $(this).remove();
+});
 
 
 

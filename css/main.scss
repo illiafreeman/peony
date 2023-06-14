@@ -618,6 +618,35 @@ main{
         }
     }
 }
+.review {
+    position: relative;
+    &-nav{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    &__item {
+        margin: 0 25px;
+    }
+    &__name {
+        padding: 28px 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        border-top: 1px solid #9EACA4;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__more {}
+}
+.slider {
+    &_review {
+        margin: 0 0 58px -25px;
+        padding-right: 200px;
+    }
+}
 
 
 

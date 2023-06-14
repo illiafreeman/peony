@@ -2583,6 +2583,33 @@ body {
   left: -152px;
 }
 
+.review {
+  position: relative;
+}
+.review-nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.review__item {
+  margin: 0 25px;
+}
+.review__name {
+  padding: 28px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  border-top: 1px solid #9EACA4;
+}
+.review__text {
+  font-size: 16px;
+  line-height: 22px;
+}
+.slider_review {
+  margin: 0 0 58px -25px;
+  padding-right: 200px;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;
