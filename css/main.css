@@ -2494,15 +2494,18 @@ body {
 }
 .dir__item:nth-child(2) .dir__pic-bg {
   left: -20px;
-  top: 150px;
+  top: 120px;
 }
 .dir__item:nth-child(3) .dir__pic-bg {
-  left: -10px;
-  top: 150px;
+  right: -53px;
+  top: 213px;
 }
 .dir__item:nth-child(4) .dir__pic-bg {
-  left: -15px;
-  top: 180px;
+  right: -20px;
+  top: 150px;
+}
+.dir__item:hover .dir__name {
+  font-weight: 500;
 }
 .dir__pic-img {
   position: relative;
@@ -2517,6 +2520,7 @@ body {
   font-size: 22px;
   line-height: 27px;
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 @media only screen and (max-width: 1500px) {

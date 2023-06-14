@@ -525,15 +525,20 @@ main{
         }
         &:nth-child(2) .dir__pic-bg{
             left: -20px;
-            top: 150px;
+            top: 120px;
         }
         &:nth-child(3) .dir__pic-bg{
-            left: -10px;
-            top: 150px;
+            right: -53px;
+            top: 213px
         }
         &:nth-child(4) .dir__pic-bg{
-            left: -15px;
-            top: 180px;
+            right: -20px;
+            top: 150px;
+        }
+        &:hover{
+            .dir__name{
+                font-weight: 500;
+            }
         }
     }
     &__pic-img {
@@ -549,6 +554,7 @@ main{
         font-size: 22px;
         line-height: 27px;
         text-transform: uppercase;
+        transition: $transition
     }
 }
 
