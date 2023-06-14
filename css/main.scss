@@ -560,6 +560,7 @@ main{
 .article {
 }
 .how {
+    padding-bottom: 120px;
     &__wrap {
         display: flex;
         gap: 60px;
@@ -580,6 +581,44 @@ main{
         }
     }
 }
+.about {
+    color: #fff;
+    background: #4A5644;
+    padding-bottom: 120px;
+    &__wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 68px;
+    }
+    &__item {}
+    &__title {
+        font-size: 34px;
+        line-height: 40px;
+        text-transform: uppercase;
+        font-family: $font;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #fff;
+    }
+    &__desc {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .title{
+        position: relative;
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 212px;
+            height: 212px;
+            background: url(../img/about_pic.png) no-repeat center center / cover;
+            top: -85px;
+            left: -152px;
+        }
+    }
+}
+
 
 
 
