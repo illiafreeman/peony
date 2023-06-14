@@ -132,6 +132,33 @@ body {
     left: 0;
     right: 0;
     height: 200px;
+    transition: $transition;
+    &.fixed{
+        background: #fff;
+        height: 82px;
+        .header-logo {
+            width: 44px;
+            height: 41px;
+            background: url(../img/logo_dark.png) no-repeat center center / cover;
+        }
+        .header-nav__link{
+            color: #000;
+            &:before{
+                background: #000;
+            }
+        }
+        .soclist{
+            display: none;
+        }
+        .header-menu{
+            padding: 0;
+            height: 100%;
+            align-items: center
+        }
+        .container{
+            height: 100%;
+        }
+    }
 }
 
 .header-menu {
@@ -168,8 +195,8 @@ body {
         justify-content: flex-end;
     }
     &__link {
-        font-size: 16px;
-        line-height: 19px;
+        font-size: 18px;
+        line-height: 24px;
         position: relative;
         font-weight: 400;
         color: $white;

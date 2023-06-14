@@ -2126,6 +2126,33 @@ body {
   left: 0;
   right: 0;
   height: 200px;
+  transition: all 0.2s ease-in-out;
+}
+.header.fixed {
+  background: #fff;
+  height: 82px;
+}
+.header.fixed .header-logo {
+  width: 44px;
+  height: 41px;
+  background: url(../img/logo_dark.png) no-repeat center center/cover;
+}
+.header.fixed .header-nav__link {
+  color: #000;
+}
+.header.fixed .header-nav__link:before {
+  background: #000;
+}
+.header.fixed .soclist {
+  display: none;
+}
+.header.fixed .header-menu {
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+.header.fixed .container {
+  height: 100%;
 }
 
 .header-menu {
@@ -2163,8 +2190,8 @@ body {
   justify-content: flex-end;
 }
 .header-nav__link {
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 24px;
   position: relative;
   font-weight: 400;
   color: #fff;

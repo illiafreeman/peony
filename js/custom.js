@@ -24,6 +24,14 @@ $(document).ready(function () {
         } else {
             $(scrollTop).removeClass('vis');
         }
+
+            if ($(window).scrollTop() >= 1) {
+                $('.header').addClass('fixed');
+            }
+            else {
+                $('.header').removeClass('fixed');
+            }
+
     });
     $(scrollTop).click(function () {
         $('html, body').animate({
