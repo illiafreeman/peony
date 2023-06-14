@@ -2416,6 +2416,7 @@ body {
 
 .why {
   background: url(../img/why_bg.svg) no-repeat right 42px;
+  padding-bottom: 60px;
 }
 .why__item {
   display: flex;
@@ -2442,20 +2443,34 @@ body {
   opacity: 0.6;
 }
 .adv {
-  transform: skew(0, -3deg);
-  display: flex;
+  transform: skew(0, -2deg);
   background: #4A5644;
   overflow: hidden;
   padding-bottom: 100px;
+  color: #fff;
 }
 .adv__desc {
-  transform: skew(0, 3deg);
+  transform: skew(0, 2deg);
+}
+.adv__item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+.adv__item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
 }
 .adv__pic {
   min-width: 500px;
   background: url(../img/flowers.jpg) no-repeat center center/cover;
-  transform: skew(0, 3deg);
+  transform: skew(0, 2deg);
   margin: -130px 0 -130px;
+}
+.adv .container {
+  display: flex;
+  gap: 130px;
 }
 
 @media only screen and (max-width: 1500px) {
