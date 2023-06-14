@@ -2125,6 +2125,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  height: 200px;
 }
 
 .header-menu {
@@ -2165,7 +2166,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   position: relative;
-  text-transform: uppercase;
   font-weight: 400;
   color: #fff;
 }
@@ -2176,11 +2176,8 @@ body {
   position: absolute;
   bottom: -5px;
   right: 0;
-  background: #000;
+  background: #fff;
   transition: all 0.2s ease-in-out;
-}
-.header-nav__link:hover {
-  color: #000;
 }
 .header-nav__link:hover:before {
   width: 100%;
@@ -2223,29 +2220,23 @@ body {
 
 .btn {
   display: inline-flex;
-  height: 40px;
-  border-radius: 20px;
+  height: 62px;
   padding: 0 30px;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 16px;
+  color: #000;
   transition: all 0.2s ease-in-out;
-  background: #fff;
+  background: #FFEDF2;
 }
 .btn:hover {
-  background: #4D2F51;
+  background: #F1CED8;
 }
 
 .article {
   padding-top: 114px;
-}
-
-main {
-  margin-top: -200px;
 }
 
 .soclist {
@@ -2264,6 +2255,12 @@ main {
   align-items: center;
   margin-left: 12px;
 }
+.soclist__soc:hover {
+  border-color: #F1CED8;
+}
+.soclist__soc:hover .soclist__socpic {
+  fill: #F1CED8;
+}
 .soclist__socpic {
   width: 20px;
   height: 20px;
@@ -2273,22 +2270,27 @@ main {
 
 .intro {
   display: flex;
-  padding: 0;
+  padding: 0 0 180px;
   justify-content: space-between;
   gap: 40px;
   background: url(../img/intro.jpg) no-repeat center top/cover;
-  padding-top: 400px;
+  padding-top: 280px;
   color: #fff;
 }
 .intro__desc {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
 }
 .intro__sub {
-  width: 440px;
+  max-width: 480px;
   margin-bottom: 36px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 48px;
 }
 .intro__pic {
   flex: 0 0 390px;
@@ -2312,11 +2314,15 @@ main {
 }
 
 .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-weight: 400;
-  font-size: 98px;
-  line-height: 104px;
-  margin-bottom: 14px;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+  max-width: 914px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .title_h2 {
   font-size: 46px;
