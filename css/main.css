@@ -2116,12 +2116,15 @@ body {
 /*end fixed footer*/
 .container {
   margin: 0 auto;
-  width: 1180px;
+  width: 1260px;
 }
 
 .header {
-  position: relative;
+  position: fixed;
   padding: 28px 0 12px;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-menu {
@@ -2129,6 +2132,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   gap: 64px;
+  position: relative;
 }
 .header-menu__btn {
   display: none;
@@ -2239,12 +2243,34 @@ body {
   padding-top: 114px;
 }
 
+main {
+  margin-top: -200px;
+}
+
+.soclist {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  display: flex;
+}
+.soclist__soc {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
 .intro {
   display: flex;
   padding: 0;
   justify-content: space-between;
   gap: 40px;
-  background: url(../img/intro.jpg) no-repeat center center/cover;
+  background: url(../img/intro.jpg) no-repeat center top/cover;
+  padding-top: 400px;
+  color: #fff;
 }
 .intro__desc {
   display: flex;
