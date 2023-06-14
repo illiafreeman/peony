@@ -127,7 +127,7 @@ body {
 
 .header {
     position: fixed;
-    padding: 28px 0 12px;
+    padding: 0;
     top: 0;
     left: 0;
     right: 0;
@@ -139,6 +139,7 @@ body {
     align-items: flex-end;
     gap: 64px;
     position: relative;
+    padding: 26px 0;
     &__btn {
         display: none;
     }
@@ -146,26 +147,25 @@ body {
 
 .header-logo {
     display: flex;
-    width: 216px;
-    min-width: 216px;
-    height: 138px;
-    background: url(../img/logo.png) no-repeat center center / cover;
+    width: 160px;
+    height: 146px;
+    background: url(../img/logo_white.png) no-repeat center center / cover;
 }
 
 .header-navgroup {
-    display: flex;
-    justify-content: flex-end;
-    gap: 120px;
-    padding-bottom: 34px;
-    flex: 1 0 auto;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
-    gap: 36px;
+    gap: 46px;
     align-items: flex-end;
-
+    &_right{
+        justify-content: flex-end;
+    }
     &__link {
         font-size: 16px;
         line-height: 19px;
@@ -279,7 +279,12 @@ main{
         align-items: center;
         margin-left: 12px;
     }
-    &__socpic {}
+    &__socpic {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        transition: all 0.2s ease-in-out;
+    }
 }
 
 .intro {
