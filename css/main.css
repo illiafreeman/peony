@@ -2523,6 +2523,26 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+.how__wrap {
+  display: flex;
+  gap: 60px;
+}
+.how__pic {
+  background: url(../img/how_pic.jpg) no-repeat center center/cover;
+  min-width: 540px;
+}
+.how__desc {
+  padding-left: 36px;
+  border-left: 4px solid #9EACA4;
+  margin-bottom: 0;
+}
+.how__desc li {
+  margin-bottom: 60px;
+}
+.how__desc li:last-child {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;

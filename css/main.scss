@@ -557,6 +557,30 @@ main{
         transition: $transition
     }
 }
+.article {
+}
+.how {
+    &__wrap {
+        display: flex;
+        gap: 60px;
+    }
+    &__pic {
+        background: url(../img/how_pic.jpg) no-repeat center center / cover;
+        min-width: 540px;
+    }
+    &__desc {
+        padding-left: 36px;
+        border-left: 4px solid #9EACA4;
+        margin-bottom: 0;
+        li{
+            margin-bottom: 60px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
 
 
 
