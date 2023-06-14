@@ -133,6 +133,7 @@ body {
     right: 0;
     height: 200px;
     transition: $transition;
+    z-index: 100;
     &.fixed{
         background: #fff;
         height: 82px;
