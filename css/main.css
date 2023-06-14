@@ -67,7 +67,7 @@ ol {
 }
 
 b, strong {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 i {
@@ -2361,16 +2361,16 @@ body {
 }
 .title_h2 {
   font-size: 46px;
-  line-height: 52px;
-  margin-bottom: 68px;
-  width: 537px;
+  line-height: 54px;
+  margin-bottom: 58px;
+  text-align: left;
 }
 .title_h3 {
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  font-family: "Tenor Sans", sans-serif;
 }
+
 .welcome {
   display: flex;
   justify-content: space-between;
@@ -2414,6 +2414,33 @@ body {
   visibility: hidden;
 }
 
+.why {
+  background: url(../img/why_bg.svg) no-repeat right 42px;
+}
+.why__item {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 800px;
+  margin-bottom: 22px;
+}
+.why__item:last-child {
+  margin-bottom: 0;
+}
+.why__item_even {
+  margin-left: 430px;
+}
+.why__item-num {
+  font-size: 138px;
+  line-height: 161px;
+  background: linear-gradient(180deg, #9EACA4 0%, rgba(158, 172, 164, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Tenor Sans", sans-serif;
+  opacity: 0.6;
+}
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;
