@@ -48,6 +48,7 @@ a:active {
   text-decoration: none;
   position: relative;
   transition: all 0.2s ease-in-out;
+  color: #000;
 }
 
 ul {
@@ -2198,6 +2199,9 @@ body {
   font-weight: 400;
   color: #fff;
 }
+.header-nav__link:hover, .header-nav__link:focus, .header-nav__link:visited, .header-nav__link:active {
+  color: #fff;
+}
 .header-nav__link:before {
   content: "";
   width: 0;
@@ -2471,6 +2475,48 @@ body {
 .adv .container {
   display: flex;
   gap: 130px;
+}
+
+.dir__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.dir__item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.dir__item:nth-child(1) .dir__pic-bg {
+  left: -20px;
+  top: 150px;
+}
+.dir__item:nth-child(2) .dir__pic-bg {
+  left: -20px;
+  top: 150px;
+}
+.dir__item:nth-child(3) .dir__pic-bg {
+  left: -10px;
+  top: 150px;
+}
+.dir__item:nth-child(4) .dir__pic-bg {
+  left: -15px;
+  top: 180px;
+}
+.dir__pic-img {
+  position: relative;
+  z-index: 90;
+  margin-bottom: 28px;
+}
+.dir__pic-bg {
+  position: absolute;
+  display: block;
+}
+.dir__name {
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1500px) {
