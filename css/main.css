@@ -2441,6 +2441,23 @@ body {
   font-family: "Tenor Sans", sans-serif;
   opacity: 0.6;
 }
+.adv {
+  transform: skew(0, -3deg);
+  display: flex;
+  background: #4A5644;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.adv__desc {
+  transform: skew(0, 3deg);
+}
+.adv__pic {
+  min-width: 500px;
+  background: url(../img/flowers.jpg) no-repeat center center/cover;
+  transform: skew(0, 3deg);
+  margin: -130px 0 -130px;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;
