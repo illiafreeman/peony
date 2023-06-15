@@ -2560,7 +2560,7 @@ body {
 .how__desc {
   padding-left: 36px;
   border-left: 4px solid #9EACA4;
-  margin-bottom: 0;
+  margin: 0;
 }
 .how__desc li {
   margin-bottom: 60px;
@@ -2608,6 +2608,8 @@ body {
 
 .review {
   position: relative;
+  padding-bottom: 82px;
+  border-bottom: 1px solid #9EACA4;
 }
 .review-nav {
   position: absolute;

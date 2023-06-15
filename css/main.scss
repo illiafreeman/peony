@@ -592,7 +592,7 @@ main{
     &__desc {
         padding-left: 36px;
         border-left: 4px solid #9EACA4;
-        margin-bottom: 0;
+        margin: 0;
         li{
             margin-bottom: 60px;
             &:last-child{
@@ -640,6 +640,9 @@ main{
 }
 .review {
     position: relative;
+    padding-bottom: 82px;
+    border-bottom: 1px solid #9EACA4;
+
     &-nav{
         position: absolute;
         right: 0;
