@@ -2621,6 +2621,13 @@ body {
   font-size: 16px;
   line-height: 22px;
 }
+.review__inner {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  white-space: pre-wrap;
+}
 .slider_review {
   margin: 0 0 58px -25px;
 }

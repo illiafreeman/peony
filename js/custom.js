@@ -86,7 +86,7 @@ if ($(window).width() > 1280) {
     }
 }
 $('.review__more').click(function() {
-    $(this).parent().addClass('full');
+    $(this).siblings().addClass('full');
     $(this).remove();
 });
 
