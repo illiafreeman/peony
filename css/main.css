@@ -2588,8 +2588,24 @@ body {
 }
 .review-nav {
   position: absolute;
-  bottom: 0;
   right: 0;
+  z-index: 80;
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.review-nav_prev {
+  bottom: 60px;
+  transform: rotate(180deg);
+}
+.review-nav_next {
+  bottom: 0;
+}
+.review-nav svg {
+  fill: #000;
+  width: 87px;
+  height: 8px;
 }
 .review__item {
   margin: 0 25px;
@@ -2607,7 +2623,15 @@ body {
 }
 .slider_review {
   margin: 0 0 58px -25px;
+}
+
+.slider-wrap {
   padding-right: 200px;
+  position: relative;
+}
+
+.slick-slide {
+  outline: none;
 }
 
 @media only screen and (max-width: 1500px) {

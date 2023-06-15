@@ -622,8 +622,24 @@ main{
     position: relative;
     &-nav{
         position: absolute;
-        bottom: 0;
         right: 0;
+        z-index: 80;
+        cursor: pointer;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        &_prev{
+            bottom: 60px;
+            transform: rotate(180deg);
+        }
+        &_next{
+            bottom: 0;
+        }
+        svg{
+            fill: #000;
+            width: 87px;
+            height: 8px;
+        }
     }
     &__item {
         margin: 0 25px;
@@ -644,11 +660,15 @@ main{
 .slider {
     &_review {
         margin: 0 0 58px -25px;
-        padding-right: 200px;
     }
 }
-
-
+.slider-wrap{
+    padding-right: 200px;
+    position: relative;
+}
+.slick-slide {
+    outline: none
+}
 
 
 
