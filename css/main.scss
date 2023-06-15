@@ -663,7 +663,7 @@ main{
         white-space: pre-wrap;
         &.full{
             overflow: visible;
-            display: -webkit-box;
+            display: block;
             -webkit-box-orient: vertical;
             -webkit-line-clamp: none;
             white-space: auto;
