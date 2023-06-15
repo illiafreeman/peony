@@ -113,6 +113,10 @@ table th, table td {
   margin: 0 auto;
 }
 
+.mb24 {
+  margin-bottom: 24px;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -2279,32 +2283,50 @@ body {
 }
 
 .soclist {
-  position: absolute;
-  top: 26px;
-  right: 0;
   display: flex;
 }
 .soclist__soc {
   width: 38px;
   height: 38px;
-  border: 1px solid #fff;
+  border: 1px solid #4A5644;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 12px;
 }
+.soclist__soc:first-child {
+  margin: 0;
+}
 .soclist__soc:hover {
-  border-color: #F1CED8;
+  border-color: #9EACA4;
 }
 .soclist__soc:hover .soclist__socpic {
-  fill: #F1CED8;
+  fill: #9EACA4;
 }
 .soclist__socpic {
   width: 20px;
   height: 20px;
-  fill: #fff;
   transition: all 0.2s ease-in-out;
+  fill: #4A5644;
+}
+
+.header .soclist {
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+.header .soclist__soc {
+  border: 1px solid #fff;
+}
+.header .soclist__soc:hover {
+  border-color: #F1CED8;
+}
+.header .soclist__soc:hover .soclist__socpic {
+  fill: #F1CED8;
+}
+.header .soclist__socpic {
+  fill: #fff;
 }
 
 .intro {
@@ -2640,6 +2662,10 @@ body {
   cursor: pointer;
   margin-top: 5px;
   display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+.review__more:hover {
+  color: #4A5644;
 }
 
 .slider_review {
