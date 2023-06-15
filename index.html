@@ -359,9 +359,14 @@
         });
         $('.review-nav_next').click(function () {
             $('#slick_1').slick('slickNext');
+            $('.review__inner').removeClass('full');
+            $('.review__more').show();
         });
         $('.review-nav_prev').click(function () {
             $('#slick_1').slick('slickPrev');
+            $('.review__inner').removeClass('full');
+            $('.review__more').show();
+
         });
         $('#slick_2').slick({
             slidesToShow: 3,

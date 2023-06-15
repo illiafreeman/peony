@@ -2618,11 +2618,11 @@ body {
   align-items: center;
 }
 .review-nav_prev {
-  bottom: 60px;
+  top: 40px;
   transform: rotate(180deg);
 }
 .review-nav_next {
-  bottom: 0;
+  top: -28px;
 }
 .review-nav svg {
   fill: #000;
@@ -2647,7 +2647,7 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
   white-space: pre-wrap;
 }
 .review__inner.full {

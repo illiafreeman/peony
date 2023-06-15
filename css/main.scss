@@ -648,11 +648,11 @@ main{
         display: flex;
         align-items: center;
         &_prev{
-            bottom: 60px;
+            top: 40px;
             transform: rotate(180deg);
         }
         &_next{
-            bottom: 0;
+            top: -28px;
         }
         svg{
             fill: #000;
@@ -678,7 +678,7 @@ main{
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 5;
+        -webkit-line-clamp: 4;
         white-space: pre-wrap;
         &.full{
             overflow: visible;

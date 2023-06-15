@@ -87,7 +87,7 @@ if ($(window).width() > 1280) {
 }
 $('.review__more').click(function() {
     $(this).siblings().addClass('full');
-    $(this).remove();
+    $(this).hide();
 });
 
 
