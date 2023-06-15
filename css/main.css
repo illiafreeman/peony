@@ -2628,6 +2628,20 @@ body {
   -webkit-line-clamp: 5;
   white-space: pre-wrap;
 }
+.review__inner.full {
+  overflow: visible;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: none;
+  white-space: auto;
+}
+.review__more {
+  color: #9EACA4;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+}
+
 .slider_review {
   margin: 0 0 58px -25px;
 }

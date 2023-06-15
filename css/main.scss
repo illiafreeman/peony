@@ -661,8 +661,20 @@ main{
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 5;
         white-space: pre-wrap;
+        &.full{
+            overflow: visible;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: none;
+            white-space: auto;
+        }
     }
-    &__more {}
+    &__more {
+        color: #9EACA4;
+        cursor: pointer;
+        margin-top: 5px;
+        display: inline-block;
+    }
 }
 .slider {
     &_review {
