@@ -2393,9 +2393,20 @@ body {
   text-align: left;
 }
 .title_h3 {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+.title_h4 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  margin-bottom: 60px;
 }
 
 .welcome {
@@ -2682,6 +2693,45 @@ body {
 
 .slick-slide {
   outline: none;
+}
+
+.start__wrap {
+  display: flex;
+  gap: 70px;
+}
+.start__desc-inner {
+  position: relative;
+  padding: 40px 0;
+}
+.start__desc-inner:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  background: url(../img/quote.png) no-repeat center center/contain;
+  bottom: 0px;
+  right: 0;
+}
+.start__desc-inner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  background: url(../img/quote.png) no-repeat center center/contain;
+  top: 0px;
+  left: 0;
+}
+.start__desc-inner p {
+  margin-bottom: 30px;
+}
+.start__desc-inner p:last-child {
+  margin-bottom: 0;
+}
+.start__pic {
+  min-width: 564px;
+  background: url(../img/ava.jpg) no-repeat center center/cover;
 }
 
 @media only screen and (max-width: 1500px) {

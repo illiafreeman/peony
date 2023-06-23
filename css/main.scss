@@ -413,13 +413,22 @@ main{
         margin-bottom: 58px;
         text-align: left;
     }
-
     &_h3 {
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 24px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: left;
+        font-family: $fontm;
+        margin-bottom: 30px;
     }
-
+    &_h4 {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: left;
+        font-family: $fontm;
+        text-transform: none;
+        margin-bottom: 60px;
+    }
 }
 
 
@@ -714,6 +723,49 @@ main{
 }
 .slick-slide {
     outline: none
+}
+.start {
+    &__wrap {
+        display: flex;
+        gap: 70px;
+    }
+    &__desc {
+        
+    }
+    &__desc-inner {
+        position: relative;
+        padding: 40px 0;
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 28px;
+            height: 25px;
+            background: url(../img/quote.png) no-repeat center center / contain;
+            bottom: 0px;
+            right: 0;
+        }
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 28px;
+            height: 25px;
+            background: url(../img/quote.png) no-repeat center center / contain;
+            top: 0px;
+            left: 0;
+        }
+        p{
+            margin-bottom: 30px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__pic {
+        min-width: 564px;
+        background: url(../img/ava.jpg) no-repeat center center / cover;
+    }
 }
 
 
