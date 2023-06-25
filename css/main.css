@@ -2794,6 +2794,7 @@ body {
   border: 1px solid #9EACA4;
   margin-bottom: 20px;
   transition: all 0.2s ease-in-out;
+  font-family: "Montserrat", sans-serif;
 }
 .accordion.active {
   border-bottom: 0;
@@ -2804,8 +2805,12 @@ body {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
+.panel ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
 .panel.active {
-  padding: 38px;
+  padding: 0 38px 38px;
   border: 1px solid #9EACA4;
   border-top: 0;
   margin-bottom: 20px;

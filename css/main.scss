@@ -823,19 +823,21 @@ main{
     border: 1px solid #9EACA4;
     margin-bottom: 20px;
     transition: $transition;
+    font-family: $fontm;
     &.active{
         border-bottom: 0;
     }
 }
 .panel {
-    
     max-height: 0;
     overflow: hidden;
     transition: $transition;
-    
-    
+    ul li{
+        margin-bottom: 10px;
+        list-style-type: disc;
+    }
     &.active{
-        padding: 38px;
+        padding: 0 38px 38px;
         border: 1px solid #9EACA4;
         border-top: 0;
         margin-bottom: 20px;
