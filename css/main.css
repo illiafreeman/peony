@@ -2086,38 +2086,6 @@ body {
   background: url(../img/logo.png) no-repeat center center/contain;
   display: flex;
 }
-.footer__copy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  padding-bottom: 32px;
-}
-.footer__copy a {
-  text-transform: uppercase;
-  position: relative;
-  color: #fff;
-}
-.footer__copy a:before {
-  content: "";
-  height: 1px;
-  position: absolute;
-  bottom: -2px;
-  background: #C4A7C8;
-  transition: all 0.2s ease-in-out;
-  width: 100%;
-  left: 0;
-}
-.footer__copy a:hover {
-  color: #000;
-}
-.footer__copy a:hover:before {
-  width: 0;
-  right: 0;
-  left: auto;
-}
 
 /*end fixed footer*/
 .container {
@@ -2916,6 +2884,81 @@ body {
 }
 .form .soclist__socpic {
   fill: #FFEDF2;
+}
+
+.footer {
+  padding: 120px 0 50px;
+}
+.footer .container_footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.footer .soclist {
+  justify-content: center;
+}
+.footer .soclist__socpic svg {
+  fill: #4A5644;
+}
+.footer__copy {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+.footer__copylink a {
+  position: relative;
+  display: inline-block;
+}
+.footer__copylink a:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  background: #000;
+  transition: all 0.2s ease-in-out;
+}
+.footer__copylink a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 46px;
+  align-items: flex-end;
+}
+.footer-nav_right {
+  justify-content: flex-end;
+}
+.footer-nav__link {
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  font-weight: 400;
+}
+.footer-nav__link:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #000;
+  transition: all 0.2s ease-in-out;
+}
+.footer-nav__link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.footer-logo {
+  width: 137px;
+  height: 125px;
+  background: url(../img/logo_footer.png) no-repeat center center/cover;
 }
 
 @media only screen and (max-width: 1500px) {
