@@ -2795,9 +2795,32 @@ body {
   margin-bottom: 20px;
   transition: all 0.2s ease-in-out;
   font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.accordion:before, .accordion:after {
+  content: "";
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  background: #4A5644;
+  border-radius: 3px;
+}
+.accordion:before {
+  width: 28px;
+  height: 3px;
+  top: 50px;
+  right: 40px;
+}
+.accordion:after {
+  height: 28px;
+  width: 3px;
+  top: 37px;
+  right: 52px;
 }
 .accordion.active {
   border-bottom: 0;
+}
+.accordion.active:after {
+  opacity: 0;
 }
 
 .panel {
