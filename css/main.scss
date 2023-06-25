@@ -21,7 +21,7 @@ body {
     padding: 0;
     margin: 0;
     flex-direction: column;
-    background: #F8F8F8;
+    background: #fff;
 }
 
 .footer {
@@ -773,6 +773,8 @@ main{
     max-width: 100%;
 }
 .team {
+    border-bottom: 1px solid #9EACA4;
+    padding-bottom: 82px;
     .title {
         margin-bottom: 160px;
     }
@@ -807,8 +809,39 @@ main{
         text-transform: uppercase; 
     }
 }
-
-
+.accordion {
+    cursor: pointer;
+    padding: 38px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    border: 1px solid #9EACA4;
+    margin-bottom: 20px;
+    transition: $transition;
+    &.active{
+        border-bottom: 0;
+    }
+}
+.panel {
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: $transition;
+    
+    
+    &.active{
+        padding: 38px;
+        border: 1px solid #9EACA4;
+        border-top: 0;
+        margin-bottom: 20px;
+        transform: translateY(-20px);
+    }
+}
 
 
 
