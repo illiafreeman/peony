@@ -96,7 +96,7 @@ table th, table td {
 }
 
 .ac {
-  text-align: center;
+  text-align: center !important;
 }
 
 .df {
@@ -2695,6 +2695,10 @@ body {
   outline: none;
 }
 
+.start {
+  border-bottom: 1px solid #9EACA4;
+  padding-bottom: 82px;
+}
 .start__wrap {
   display: flex;
   gap: 70px;
@@ -2732,6 +2736,44 @@ body {
 .start__pic {
   min-width: 564px;
   background: url(../img/ava.jpg) no-repeat center center/cover;
+}
+
+.title.ac {
+  max-width: 100%;
+}
+
+.team .title {
+  margin-bottom: 160px;
+}
+.team__line {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team__line_odd {
+  margin-bottom: 60px;
+}
+.team__line_odd .team__item:nth-child(2) {
+  transform: translateY(-40px);
+}
+.team__item {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.team__item-img {
+  margin-bottom: 28px;
+}
+.team__item-img-bg {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  top: 120px;
+}
+.team__item-name {
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1500px) {

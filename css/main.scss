@@ -725,6 +725,8 @@ main{
     outline: none
 }
 .start {
+    border-bottom: 1px solid #9EACA4;
+    padding-bottom: 82px;   
     &__wrap {
         display: flex;
         gap: 70px;
@@ -767,7 +769,44 @@ main{
         background: url(../img/ava.jpg) no-repeat center center / cover;
     }
 }
-
+.title.ac{
+    max-width: 100%;
+}
+.team {
+    .title {
+        margin-bottom: 160px;
+    }
+    &__line {
+        display: flex;
+        justify-content:space-evenly;
+      &_odd {
+        margin-bottom: 60px;
+        .team__item:nth-child(2){
+            transform: translateY(-40px);
+        }
+      }
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__item-img {
+        margin-bottom: 28px;
+    }
+    &__item-img-bg {
+        position: absolute;
+        display: block;
+        z-index: -1;
+        top: 120px;
+    }
+    &__item-name {
+        font-size: 22px;
+        text-transform: uppercase; 
+    }
+}
 
 
 
