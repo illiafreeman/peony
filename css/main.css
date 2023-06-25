@@ -2268,6 +2268,8 @@ body {
   color: #000;
   transition: all 0.2s ease-in-out;
   background: #FFEDF2;
+  border: 0;
+  cursor: pointer;
 }
 .btn:hover {
   background: #F1CED8;
@@ -2780,6 +2782,10 @@ body {
   text-transform: uppercase;
 }
 
+.faq {
+  padding-bottom: 120px;
+}
+
 .accordion {
   cursor: pointer;
   padding: 38px;
@@ -2840,6 +2846,64 @@ body {
   transform: translateY(-20px);
 }
 
+.form {
+  background: #4A5644;
+  color: #fff;
+  padding: 0;
+}
+.form .container {
+  display: flex;
+  gap: 72px;
+}
+.form__pic {
+  min-width: 658px;
+  background: url(../img/form_bg.jpg) no-repeat center center/cover;
+}
+.form__wrap {
+  padding: 82px 0;
+}
+.form__wrap .title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.form__wrap p {
+  margin-bottom: 48px;
+}
+.form__wrap form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form__wrap input {
+  display: block;
+  margin-bottom: 18px;
+  width: 100%;
+  height: 62px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 0;
+  padding: 0 20px;
+  font-size: 18px;
+}
+.form__wrap .btn {
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+.form__mail {
+  color: #fff;
+  display: block;
+  margin-bottom: 30px;
+}
+.form__mail:hover {
+  color: #fff;
+}
+.form__tel {
+  color: #fff;
+  margin-bottom: 60px;
+}
+.form__tel:hover {
+  color: #fff;
+}
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;

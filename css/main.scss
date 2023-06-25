@@ -281,7 +281,8 @@ body {
     color: $black;
     transition: $transition;
     background: #FFEDF2;
-
+    border: 0;
+    cursor: pointer;
     &:hover {
         background: #F1CED8;
     }
@@ -809,6 +810,9 @@ main{
         text-transform: uppercase; 
     }
 }
+.faq{
+    padding-bottom: 120px;
+}
 .accordion {
     cursor: pointer;
     padding: 38px;
@@ -867,6 +871,69 @@ main{
         transform: translateY(-20px);
     }
 }
+.form {
+    background: #4A5644;
+    color: #fff;
+    padding: 0;
+    .container{
+        display: flex;
+        gap: 72px;
+    }
+    &__pic {
+        min-width: 658px;
+        background: url(../img/form_bg.jpg) no-repeat center center / cover;
+    }
+    &__wrap {
+        padding: 82px 0;
+        .title{
+            font-size: 36px; 
+            line-height: 42px;
+            margin-bottom: 30px;
+        }
+        p{
+            margin-bottom: 48px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start
+        }
+        input{
+            display: block;
+            margin-bottom: 18px;
+            width: 100%;
+            height: 62px; 
+            background: rgba(255, 255, 255, 0.45);
+            border: 0;
+            padding: 0 20px;
+            font-size: 18px;
+        }
+        .btn{
+            margin-top: 22px;
+            margin-bottom: 48px;
+        }
+    }
+    &__mail {
+        color: #fff;
+        display: block;
+        margin-bottom: 30px;
+        &:hover{
+            color: #fff;
+        }
+    }
+    &__tel {
+        color: #fff;
+        margin-bottom: 60px;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .soclist {
+        &__soc {}
+        &__socpic {}
+    }
+}
+
 
 
 
