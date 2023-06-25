@@ -853,6 +853,8 @@ main{
     }
     &__wrap {
         padding: 82px 0;
+        display: flex;
+        flex-direction: column;
         .title{
             font-size: 36px; 
             line-height: 42px;
@@ -883,19 +885,48 @@ main{
     }
     &__mail {
         color: #fff;
-        display: block;
+        display: inline-block;
         margin-bottom: 30px;
         &:hover{
             color: #fff;
+        }
+        &:before {
+            content: "";
+            width: 0;
+            height: 1px;
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            background: #fff;
+            transition: all 0.2s ease-in-out;
+        }
+        &:hover::before {
+            width: 100%;
+            left: 0;
         }
     }
     &__tel {
         color: #fff;
         margin-bottom: 60px;
-        display: block;
+        display: inline-block;
         &:hover{
             color: #fff;
         }
+        &:before {
+            content: "";
+            width: 0;
+            height: 1px;
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            background: #fff;
+            transition: all 0.2s ease-in-out;
+        }
+        &:hover::before {
+            width: 100%;
+            left: 0;
+        }
+
     }
     .soclist {
         &__soc {
@@ -982,7 +1013,9 @@ main{
             width: 100%;
             left: 0;
         }
-          
+        &:hover{
+            //font-size: 14px !important;
+        }
     }
 }
 .footer-logo {

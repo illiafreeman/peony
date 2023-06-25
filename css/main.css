@@ -2829,6 +2829,8 @@ body {
 }
 .form__wrap {
   padding: 82px 0;
+  display: flex;
+  flex-direction: column;
 }
 .form__wrap .title {
   font-size: 36px;
@@ -2859,19 +2861,47 @@ body {
 }
 .form__mail {
   color: #fff;
-  display: block;
+  display: inline-block;
   margin-bottom: 30px;
 }
 .form__mail:hover {
   color: #fff;
 }
+.form__mail:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.form__mail:hover::before {
+  width: 100%;
+  left: 0;
+}
 .form__tel {
   color: #fff;
   margin-bottom: 60px;
-  display: block;
+  display: inline-block;
 }
 .form__tel:hover {
   color: #fff;
+}
+.form__tel:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.form__tel:hover::before {
+  width: 100%;
+  left: 0;
 }
 .form .soclist__soc {
   border-color: #FFEDF2;
@@ -2954,7 +2984,6 @@ body {
   width: 100%;
   left: 0;
 }
-
 .footer-logo {
   width: 137px;
   height: 125px;
