@@ -2900,10 +2900,24 @@ body {
 .form__tel {
   color: #fff;
   margin-bottom: 60px;
+  display: block;
 }
 .form__tel:hover {
   color: #fff;
 }
+.form .soclist__soc {
+  border-color: #FFEDF2;
+}
+.form .soclist__soc:hover {
+  border-color: #D194A5;
+}
+.form .soclist__soc:hover .soclist__socpic {
+  fill: #D194A5;
+}
+.form .soclist__socpic {
+  fill: #FFEDF2;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;

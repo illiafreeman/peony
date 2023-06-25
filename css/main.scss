@@ -924,13 +924,24 @@ main{
     &__tel {
         color: #fff;
         margin-bottom: 60px;
+        display: block;
         &:hover{
             color: #fff;
         }
     }
     .soclist {
-        &__soc {}
-        &__socpic {}
+        &__soc {
+            border-color: #FFEDF2;
+            &:hover{
+                border-color: #D194A5;
+                .soclist__socpic{
+                    fill: #D194A5;
+                }
+            }
+        }
+        &__socpic {
+            fill: #FFEDF2;
+        }
     }
 }
 
