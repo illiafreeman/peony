@@ -326,6 +326,9 @@ main{
     background: url(../img/intro.jpg) no-repeat center top / cover;
     padding-top: 280px;
     color: #fff;
+    &_portfolio{
+        background: url(../img/portfolio_intro.jpg) no-repeat center top / cover;
+    }
     &__desc {
         display: flex;
         flex-direction: column;

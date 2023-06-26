@@ -2309,6 +2309,9 @@ body {
   padding-top: 280px;
   color: #fff;
 }
+.intro_portfolio {
+  background: url(../img/portfolio_intro.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
