@@ -3313,6 +3313,29 @@ body.oh {
   max-width: 100%;
 }
 
+.var__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 42px;
+  justify-content: space-between;
+}
+.var__item:last-child {
+  margin-bottom: 0;
+}
+.var__item:nth-child(even) .var__desc {
+  order: 1;
+}
+.var__desc {
+  width: 580px;
+}
+.var__name {
+  padding-bottom: 22px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 22px;
+}
+.var__price {
+  color: #D194A5;
+}
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;

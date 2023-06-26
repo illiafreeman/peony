@@ -1353,6 +1353,35 @@ body.oh {
         max-width: 100%;
     }
 }
+.var {
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 42px;
+        justify-content: space-between;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &:nth-child(even){
+
+            .var__desc{
+                order: 1;
+            }
+        }
+    }
+    &__desc {
+        width: 580px;
+    }
+    &__name {
+        padding-bottom: 22px;
+        border-bottom: 1px solid #000;
+        margin-bottom: 22px;
+    }
+    &__price {
+        color: #D194A5;
+    }
+    &__pic {}
+}
 
 
 
