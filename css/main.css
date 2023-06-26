@@ -2325,6 +2325,9 @@ body {
 .intro_ex2 {
   background: url(../img/wine_bg.jpg) no-repeat center top/cover;
 }
+.intro_ex3 {
+  background: url(../img/sea_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
@@ -3333,7 +3336,7 @@ body.oh {
   order: 1;
 }
 .var__desc {
-  width: 580px;
+  width: 640px;
 }
 .var__name {
   padding-bottom: 22px;

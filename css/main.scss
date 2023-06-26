@@ -342,6 +342,9 @@ main{
     &_ex2{
         background: url(../img/wine_bg.jpg) no-repeat center top / cover;
     }
+    &_ex3{
+        background: url(../img/sea_bg.jpg) no-repeat center top / cover;
+    }
     &__desc {
         display: flex;
         flex-direction: column;
@@ -1375,7 +1378,7 @@ body.oh {
         }
     }
     &__desc {
-        width: 580px;
+        width: 640px;
     }
     &__name {
         padding-bottom: 22px;
