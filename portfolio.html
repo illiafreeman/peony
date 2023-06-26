@@ -173,7 +173,20 @@
             </div>
         </div>
     </footer>
-
+    <div class="modal-bg"></div>
+    <div id="modal-port" class="modal-wrap">
+        <div class="modal">
+            <div class="modal__body">
+                <div class="slider__item">
+                    <img class="slider__item-pic" src="./img/port_8.jpg" alt="">
+                    <img class="slider__item-pic" src="./img/port_9.jpg" alt="">
+                    <img class="slider__item-pic" src="./img/port_10.jpg" alt="">
+                </div>
+                <div class="modal__close"></div>
+                <div class="sq"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.js"></script>
@@ -182,7 +195,7 @@
     <script src="js/custom.js"></script>
     <script>
         new WOW().init();
-        $('#slick_1').slick({
+        $('.slider__item').slick({
             slidesToShow: 1,
             dots: false,
             //infinite: false,
