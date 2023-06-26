@@ -2319,6 +2319,9 @@ body {
 .intro_price {
   background: url(../img/price_bg.jpg) no-repeat center top/cover;
 }
+.intro_ex1 {
+  background: url(../img/mountain_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
@@ -2426,6 +2429,14 @@ body {
 }
 .welcome__descr {
   margin-bottom: 46px;
+}
+.welcome__descr_item {
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+.welcome__descr_item:last-child {
+  border: 0;
 }
 
 .wow {
@@ -3269,6 +3280,37 @@ body.oh {
 }
 .info__item-name {
   text-align: center;
+}
+
+.tab {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.tab__item {
+  text-transform: uppercase;
+  color: #4A5644;
+}
+.tab__item:hover {
+  text-decoration: underline;
+}
+.tab__item.act {
+  text-decoration: underline;
+}
+
+.note {
+  color: #fff;
+  text-align: center;
+  background: #4A5644 url(../img/note_bg.png) center center no-repeat;
+  padding: 120px 0;
+}
+.note__text {
+  width: 800px;
+  margin: 0 auto;
+}
+.note .title {
+  text-align: center;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1500px) {
