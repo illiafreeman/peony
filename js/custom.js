@@ -32,7 +32,7 @@ $(document).ready(function () {
         }
 
             if ($(window).scrollTop() >= 1) {
-                $('.header').addClass('fixed');
+                //$('.header').addClass('fixed');
             }
             else {
                 $('.header').removeClass('fixed');

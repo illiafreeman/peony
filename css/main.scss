@@ -1278,7 +1278,7 @@ main{
     }
 }
 body.oh {
-    padding-right: 17px;
+    //padding-right: 17px;
 }
 .slider__item{
 
@@ -1393,7 +1393,15 @@ body.oh {
     }
     &__pic {}
 }
-
+.logo_min{
+    background: url(../img/logo_dark.png) no-repeat center center / cover;
+    width: 62px;
+    height: 57px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+}
 
 
 
