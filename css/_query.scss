@@ -379,11 +379,33 @@ body {
 .form__wrap{
     align-items: center;
 }
-
-
-
-
-
+.footer {
+    padding: 56px 0 36px;
+}
+.footer .container.container_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-logo{
+    order: 1;
+    margin-bottom: 20px;
+}
+.footer-nav{
+    order: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap: 30px;
+}
+.footer-nav.footer-nav_right{
+    order: 2;
+    margin-bottom: 20px;
+}
+.footer .container {
+    gap: 50px;
+}
 
 
 
