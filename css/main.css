@@ -2238,6 +2238,7 @@ body {
   background: #FFEDF2;
   border: 0;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 .btn:hover {
   background: #F1CED8;
