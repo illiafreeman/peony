@@ -2328,6 +2328,9 @@ body {
 .intro_ex3 {
   background: url(../img/sea_bg.jpg) no-repeat center top/cover;
 }
+.intro_ex4 {
+  background: url(../img/city_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
