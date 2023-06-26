@@ -117,7 +117,7 @@ body {
                 background: #000;
             }
         }
-        .soclist{
+        .soclist, .header__tel{
             display: none;
         }
         .header-menu{
@@ -127,6 +127,34 @@ body {
         }
         .container{
             height: 100%;
+        }
+    }
+    &__tel{
+        position: absolute;
+        top: 35px;
+        right: 170px;
+        color: #fff;
+        &:hover, &:focus, &:visited, &:active{
+            position: absolute;
+            color: #fff;
+        }
+        &:before {
+            content: "";
+            width: 0;
+            height: 1px;
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            background: $white;
+            transition: $transition;
+        }
+
+        &:hover {
+
+            &:before {
+                width: 100%;
+                left: 0;
+            }
         }
     }
 }

@@ -55,6 +55,23 @@
     position: fixed;
     opacity: 0;
     visibility: hidden;
+    &.vis{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        padding: 36px 20px;
+        gap: 40px;
+        z-index: 10000;
+        opacity: 1;
+        visibility: visible;
+        align-items: flex-start;
+        overflow-y: scroll;
+    }
 }
 .header-menu__btn {
     display: block;
@@ -82,15 +99,51 @@
 .logo_min{
     display: block;
 }
-
-
-
-
-
-
-
-
-
+.header-nav__link, .header-nav__link:hover, .header-nav__link:focus, .header-nav__link:visited, .header-nav__link:active {
+    color: #000;
+}
+.header-logo{
+    display: none;
+}
+.header-nav{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.header-nav_right {
+    justify-content: flex-start;
+    display: flex;
+}
+.header-nav {
+    gap: 40px;
+}
+.header .soclist {
+    position: static;
+}
+.header .soclist__soc {
+    border: 1px solid #4A5644;
+    &:hover{
+        border: 1px solid #4A5644;
+        .soclist__socpic{
+            fill: #4A5644;
+        }
+    }
+}
+.header .soclist__socpic {
+    fill: #4A5644;
+    &:hover{
+        fill: #4A5644;
+    }
+}
+.header__tel {
+    position: static;
+    color: #4A5644;
+    margin-top: 56px;
+    &:hover, &:focus, &:visited, &:active{
+        position: static;
+        color: #4A5644;
+    }
+}
 
 
 

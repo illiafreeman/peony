@@ -2119,7 +2119,7 @@ body {
 .header.fixed .header-nav__link:before {
   background: #000;
 }
-.header.fixed .soclist {
+.header.fixed .soclist, .header.fixed .header__tel {
   display: none;
 }
 .header.fixed .header-menu {
@@ -2129,6 +2129,30 @@ body {
 }
 .header.fixed .container {
   height: 100%;
+}
+.header__tel {
+  position: absolute;
+  top: 35px;
+  right: 170px;
+  color: #fff;
+}
+.header__tel:hover, .header__tel:focus, .header__tel:visited, .header__tel:active {
+  position: absolute;
+  color: #fff;
+}
+.header__tel:before {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.header__tel:hover:before {
+  width: 100%;
+  left: 0;
 }
 
 .header-menu {
@@ -3407,6 +3431,23 @@ body {
     opacity: 0;
     visibility: hidden;
   }
+  .header-navgroup.vis {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    padding: 36px 20px;
+    gap: 40px;
+    z-index: 10000;
+    opacity: 1;
+    visibility: visible;
+    align-items: flex-start;
+    overflow-y: scroll;
+  }
   .header-menu__btn {
     display: block;
     z-index: 200;
@@ -3432,5 +3473,50 @@ body {
   }
   .logo_min {
     display: block;
+  }
+  .header-nav__link, .header-nav__link:hover, .header-nav__link:focus, .header-nav__link:visited, .header-nav__link:active {
+    color: #000;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-nav {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+  .header-nav_right {
+    justify-content: flex-start;
+    display: flex;
+  }
+  .header-nav {
+    gap: 40px;
+  }
+  .header .soclist {
+    position: static;
+  }
+  .header .soclist__soc {
+    border: 1px solid #4A5644;
+  }
+  .header .soclist__soc:hover {
+    border: 1px solid #4A5644;
+  }
+  .header .soclist__soc:hover .soclist__socpic {
+    fill: #4A5644;
+  }
+  .header .soclist__socpic {
+    fill: #4A5644;
+  }
+  .header .soclist__socpic:hover {
+    fill: #4A5644;
+  }
+  .header__tel {
+    position: static;
+    color: #4A5644;
+    margin-top: 56px;
+  }
+  .header__tel:hover, .header__tel:focus, .header__tel:visited, .header__tel:active {
+    position: static;
+    color: #4A5644;
   }
 }/*# sourceMappingURL=main.css.map */
