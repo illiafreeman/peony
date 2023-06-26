@@ -234,6 +234,32 @@ body {
 .adv {
     padding-top: 64px;
 }
+.adv .container {
+    gap: 40px;
+}
+.adv__pic {
+    min-width: 300px;
+    margin-right: -20px;
+}
+.article.dir {
+    padding-top: 56px;
+    .title.title_h2{
+        width: 100%;
+        text-align: center;
+    }
+}
+.dir__wrap{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+.dir__item{
+
+}
+.dir__item .dir__pic-bg {
+    left: -30px !important;
+    top: -30px !important;
+}
 
 
 
@@ -243,6 +269,24 @@ body {
 
 
 
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .adv .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .adv__pic {
+        min-height: 300px;
+        margin-top: 0;
+        margin-left: -20px;
+        
+    }
 
 
 
