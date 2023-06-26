@@ -2106,7 +2106,6 @@ body {
 .header.fixed {
   background: #fff;
   height: 82px;
-  filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.11));
 }
 .header.fixed .header-logo {
   width: 44px;
@@ -3460,12 +3459,15 @@ body {
     top: 20px;
     position: absolute;
   }
-  .header {
+  .header, .header.fixed {
     height: 100px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.11);
   }
-  .header .container {
+  .header .container, .header.fixed .container {
     padding: 0;
+  }
+  .header.fixed .header-navgroup.vis .header__tel, .header.fixed .header-navgroup.vis .soclist {
+    display: inline-flex;
   }
   .header-menu {
     padding: 0;

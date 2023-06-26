@@ -85,11 +85,20 @@
     top: 20px;
     position: absolute;
 }
-.header{
+.header, .header.fixed{
     height: 100px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.11);
     .container{
         padding: 0;
+    }
+}
+.header.fixed{
+    .header-navgroup.vis{
+        //height: calc(100vh + 800px);
+        .header__tel, .soclist{
+            display: inline-flex;
+
+        }
     }
 }
 .header-menu {
