@@ -3012,6 +3012,222 @@ body {
   padding: 28px;
 }
 
+.modal-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 17px;
+  z-index: 1000;
+}
+.modal-bg.vis {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  width: 656px;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  transform: translate(-50%, 0);
+  left: calc(50% - 17px);
+  position: absolute;
+  top: 50px;
+}
+.modal-wrap {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.modal-wrap.vis {
+  opacity: 1;
+  visibility: visible;
+}
+.modal_reg__subdesc {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+.modal_reg .sq {
+  display: none;
+}
+.modal_reg .modal__body:after {
+  display: none;
+}
+.modal_reg .order {
+  font-size: 11px;
+  line-height: 20px;
+  display: inline-block;
+}
+.modal__subdesc {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal__body {
+  padding: 40px 40px 60px;
+}
+.modal__body .sq {
+  position: absolute;
+  width: 68px;
+  height: 60px;
+  border: 2px solid #111;
+  border-bottom: 2px solid #fff;
+  bottom: 23px;
+  left: 60px;
+  z-index: 10;
+}
+.modal__body .sq:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 73px;
+  height: 20px;
+  background: url(../img/arco.png) no-repeat center center/contain;
+  top: -20px;
+  left: -5px;
+}
+.modal__desc {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 42px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.modal__desc span {
+  color: #DE3838;
+}
+.modal__action {
+  display: flex;
+  width: 220px;
+  flex-direction: column;
+  gap: 12px;
+}
+.modal__action input {
+  height: 30px;
+  border: 1px solid #111111;
+  padding: 0 12px;
+  font-size: 13px;
+  line-height: 22px;
+}
+.modal__action input::-moz-placeholder {
+  text-transform: uppercase;
+  color: #D2D2D2;
+  opacity: 1;
+}
+.modal__action input::placeholder {
+  text-transform: uppercase;
+  color: #D2D2D2;
+  opacity: 1;
+}
+.modal__action input.error {
+  border-color: #DE3838;
+}
+.modal__action span {
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "f400";
+  margin-bottom: -8px;
+}
+.modal__action .error {
+  color: #DE3838;
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "f400";
+}
+.modal__action div.error {
+  margin-top: -15px;
+}
+.modal .devider {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  color: #989898;
+}
+.modal .devider:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  border-top: 1px solid #989898;
+  top: 15px;
+  left: 0px;
+}
+.modal .devider:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  border-top: 1px solid #989898;
+  top: 15px;
+  right: 0px;
+}
+.modal__close {
+  width: 30px;
+  height: 30px;
+  background: #fff url(../img/close.png) center center no-repeat;
+  border-radius: 16px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  cursor: pointer;
+}
+
+body.oh {
+  padding-right: 17px;
+}
+
+.slider__item-pic {
+  margin: 0 auto;
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 80;
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+.slider-nav svg {
+  fill: #000;
+  width: 40px;
+  height: 8px;
+}
+
+.slider_prev {
+  transform: rotate(180deg);
+  left: 20px;
+}
+
+.slider_next {
+  right: 20px;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;
