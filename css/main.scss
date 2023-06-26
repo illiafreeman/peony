@@ -1026,6 +1026,25 @@ main{
     height: 125px;
     background: url(../img/logo_footer.png) no-repeat center center/cover;
 }
+.port {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    &__item {
+        width: calc(33.333% - 14px);
+        cursor: pointer;
+    }
+    &__item-pic {}
+    &__item-name {
+        font-size: 20px;
+        font-family: $font;
+        letter-spacing: 0.4px;
+        text-transform: uppercase; 
+        text-align: center; 
+        line-height: 23px;
+        padding: 28px;
+    }
+}
 
 
 

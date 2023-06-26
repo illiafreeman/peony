@@ -2993,6 +2993,25 @@ body {
   background: url(../img/logo_footer.png) no-repeat center center/cover;
 }
 
+.port {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.port__item {
+  width: calc(33.333% - 14px);
+  cursor: pointer;
+}
+.port__item-name {
+  font-size: 20px;
+  font-family: "Tenor Sans", sans-serif;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 23px;
+  padding: 28px;
+}
+
 @media only screen and (max-width: 1500px) {
   .wide {
     width: 100%;
