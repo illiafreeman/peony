@@ -339,6 +339,9 @@ main{
     &_ex1{
         background: url(../img/mountain_bg.jpg) no-repeat center top / cover;
     }
+    &_ex2{
+        background: url(../img/wine_bg.jpg) no-repeat center top / cover;
+    }
     &__desc {
         display: flex;
         flex-direction: column;
@@ -1364,7 +1367,7 @@ body.oh {
         &:last-child{
             margin-bottom: 0;
         }
-        &:nth-child(even){
+        &:nth-child(odd){
 
             .var__desc{
                 order: 1;

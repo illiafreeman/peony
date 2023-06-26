@@ -2322,6 +2322,9 @@ body {
 .intro_ex1 {
   background: url(../img/mountain_bg.jpg) no-repeat center top/cover;
 }
+.intro_ex2 {
+  background: url(../img/wine_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
@@ -3326,7 +3329,7 @@ body.oh {
 .var__item:last-child {
   margin-bottom: 0;
 }
-.var__item:nth-child(even) .var__desc {
+.var__item:nth-child(odd) .var__desc {
   order: 1;
 }
 .var__desc {
