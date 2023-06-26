@@ -264,7 +264,10 @@ body {
     min-height: 300px;
     min-width: 361px;
 }
-.how, .about, .review, .start {
+.start__pic {
+    min-width: 364px;
+}
+.how, .about, .review, .start, .team, .faq, .form__wrap{
     padding: 56px 0;
 }
 .about__wrap {
@@ -291,6 +294,96 @@ body {
     left: 0;
     right: auto;
 }
+.start{
+    .title.title_h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .title.title_h4{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+.start__wrap{
+    flex-direction: column;
+    gap: 40px;
+
+}
+.start__pic{
+    min-height: 500px;
+    order: 2;
+    background-position: center top;
+    margin: 20px -20px 0;
+}
+.team__line{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+.team__line_odd .team__item:nth-child(2) {
+    transform: none;
+}
+.team__item-img-bg {
+    left: -16px !important;
+    top: 2px !important;
+}
+.team .title {
+    margin-bottom: 60px;
+}
+
+.accordion {
+    padding: 80px 10px 20px;
+}
+.accordion::before {
+    width: 28px;
+    height: 2px;
+    top: 36px;
+    right: auto;
+    left: 25px;
+}
+.accordion::after {
+    height: 28px;
+    width: 2px;
+    top: 23px;
+    right: auto;
+    left: 38px;
+}
+.accordion{
+    font-size: 16px;
+}
+.panel.active {
+    padding: 0 24px 10px;
+}
+.form__pic {
+    min-width: 360px;
+    min-height: 300px;
+    order: 2;
+    margin: 0 -20px;
+}
+.form .container {
+    gap: 36px;
+}
+.form__wrap .title {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.form__wrap p {
+    font-size: 20px; 
+    text-align: center;
+}
+.form__wrap .btn {
+    margin: 22px auto 48px;
+}
+.form__wrap{
+    align-items: center;
+}
+
+
+
+
+
 
 
 
@@ -330,7 +423,9 @@ body {
     .how__desc li {
         margin-bottom: 35px;
     }
-
+    .form .container{
+        flex-direction: column;
+    }
 
 
 
