@@ -329,6 +329,9 @@ main{
     &_portfolio{
         background: url(../img/portfolio_intro.jpg) no-repeat center top / cover;
     }
+    &_info{
+        background: url(../img/faq_bg.jpg) no-repeat center top / cover;
+    }
     &__desc {
         display: flex;
         flex-direction: column;
@@ -1268,6 +1271,30 @@ body.oh {
 }
 .slider_next{
     right: 20px;
+}
+.article {
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+    &__item {
+        width: calc(33.333% - 14px);
+        cursor: pointer;
+        display: block;
+    }
+    &__item-pic {}
+    &__item-date {
+        text-align: center;
+        color: #9EACA4;
+        font-size: 16px;
+        line-height: 24px; 
+        padding: 24px;
+    }
+    &__item-name {
+        text-align: center;
+    }
 }
 
 

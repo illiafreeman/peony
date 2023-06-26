@@ -2312,6 +2312,9 @@ body {
 .intro_portfolio {
   background: url(../img/portfolio_intro.jpg) no-repeat center top/cover;
 }
+.intro_info {
+  background: url(../img/faq_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
@@ -3226,6 +3229,28 @@ body.oh {
 
 .slider_next {
   right: 20px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.info__item {
+  width: calc(33.333% - 14px);
+  cursor: pointer;
+  display: block;
+}
+.info__item-date {
+  text-align: center;
+  color: #9EACA4;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 24px;
+}
+.info__item-name {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1500px) {
