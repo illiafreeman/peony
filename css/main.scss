@@ -1354,6 +1354,8 @@ body.oh {
     }
 }
 .var {
+    padding-bottom: 120px;
+    border-bottom: 1px solid #000;
     &__item {
         display: flex;
         align-items: center;

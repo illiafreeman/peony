@@ -3313,6 +3313,10 @@ body.oh {
   max-width: 100%;
 }
 
+.var {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #000;
+}
 .var__item {
   display: flex;
   align-items: center;
