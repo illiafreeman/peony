@@ -2316,6 +2316,9 @@ body {
 .intro_info {
   background: url(../img/faq_bg.jpg) no-repeat center top/cover;
 }
+.intro_price {
+  background: url(../img/price_bg.jpg) no-repeat center top/cover;
+}
 .intro__desc {
   display: flex;
   flex-direction: column;
@@ -2761,6 +2764,15 @@ body {
   padding-bottom: 120px;
 }
 
+.faq_price {
+  padding-bottom: 0;
+}
+.faq_price .accordion {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
 .accordion {
   cursor: pointer;
   padding: 38px;
@@ -2777,6 +2789,11 @@ body {
   transition: all 0.2s ease-in-out;
   font-family: "Montserrat", sans-serif;
   position: relative;
+}
+.accordion span {
+  display: block;
+  font-size: 18px;
+  color: #D194A5;
 }
 .accordion:before, .accordion:after {
   content: "";

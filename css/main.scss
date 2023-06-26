@@ -333,6 +333,9 @@ main{
     &_info{
         background: url(../img/faq_bg.jpg) no-repeat center top / cover;
     }
+    &_price{
+        background: url(../img/price_bg.jpg) no-repeat center top / cover;
+    }
     &__desc {
         display: flex;
         flex-direction: column;
@@ -788,6 +791,14 @@ main{
 .faq{
     padding-bottom: 120px;
 }
+.faq_price{
+    padding-bottom: 0;
+    .accordion{
+        font-family: $font;
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
 .accordion {
     cursor: pointer;
     padding: 38px;
@@ -804,6 +815,11 @@ main{
     transition: $transition;
     font-family: $fontm;
     position: relative;
+    span{
+        display: block;
+        font-size: 18px;
+        color: #D194A5;
+    }
     &:before, &:after{
         content: "";
         position: absolute;
