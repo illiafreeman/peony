@@ -13,10 +13,10 @@ $(document).ready(function () {
         $('#hamburger').removeClass('open');
     });
     if ($(window).scrollTop() >= 1) {
-        //$('.header').addClass('fixed');
+        $('.header').addClass('fixed');
     }
     else {
-        //$('.header').removeClass('fixed');
+        $('.header').removeClass('fixed');
     }
 
     /*end top menu toggle*/
@@ -32,10 +32,10 @@ $(document).ready(function () {
         }
 
             if ($(window).scrollTop() >= 1) {
-                //$('.header').addClass('fixed');
+                $('.header').addClass('fixed');
             }
             else {
-                //$('.header').removeClass('fixed');
+                $('.header').removeClass('fixed');
             }
 
     });
