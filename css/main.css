@@ -3798,6 +3798,9 @@ body {
   .footer .container {
     gap: 50px;
   }
+  .panel ol {
+    padding-left: 16px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .adv .container {
