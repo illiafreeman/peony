@@ -3854,6 +3854,14 @@ body {
   .welcome {
     gap: 40px;
   }
+  .info {
+    padding: 38px 0 0;
+  }
+  .info__item-date {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 16px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .adv .container {
@@ -3894,6 +3902,16 @@ body {
   }
   .form .container {
     gap: 0;
+  }
+  .info__item {
+    width: calc(50% - 10px);
+    cursor: pointer;
+    display: block;
+  }
+  .info__item-date {
+    font-size: 10px;
+    line-height: 22px;
+    padding: 10px;
   }
 }
 @media only screen and (max-width: 600px) {
