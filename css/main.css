@@ -2106,6 +2106,7 @@ body {
 .header.fixed {
   background: #fff;
   height: 82px;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.11);
 }
 .header.fixed .header-logo {
   width: 44px;
@@ -2869,9 +2870,22 @@ body {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
+.panel ul {
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
 .panel ul li {
   margin-bottom: 10px;
   list-style-type: disc;
+  list-style-position: outside;
+}
+.panel ol {
+  padding-left: 23px;
+  margin: 0;
+}
+.panel ol li {
+  margin-bottom: 10px;
+  list-style-position: outside;
 }
 .panel.active {
   padding: 0 38px 38px;
@@ -2879,6 +2893,15 @@ body {
   border-top: 0;
   margin-bottom: 20px;
   transform: translateY(-20px);
+}
+.panel.active p:last-child, .panel.active li:last-child {
+  margin-bottom: 0;
+}
+.panel a {
+  text-decoration: underline;
+}
+.panel a:hover {
+  text-decoration: none;
 }
 
 .form {

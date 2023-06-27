@@ -105,7 +105,7 @@ body {
     &.fixed{
         background: #fff;
         height: 82px;
-        //filter: drop-shadow(0px 0px 13px rgba(0, 0, 0, 0.11));
+        box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.11);
         .header-logo {
             width: 44px;
             height: 41px;
@@ -898,9 +898,22 @@ main{
     max-height: 0;
     overflow: hidden;
     transition: $transition;
-    ul li{
-        margin-bottom: 10px;
-        list-style-type: disc;
+    ul{
+        padding-left: 16px;
+        margin-bottom: 16px;
+        li{
+            margin-bottom: 10px;
+            list-style-type: disc;
+            list-style-position: outside;
+        } 
+    }
+    ol{
+        padding-left: 23px;
+        margin: 0;
+        li{
+            margin-bottom: 10px;
+            list-style-position: outside;
+        }
     }
     &.active{
         padding: 0 38px 38px;
@@ -908,6 +921,17 @@ main{
         border-top: 0;
         margin-bottom: 20px;
         transform: translateY(-20px);
+        p, li{
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    a{
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
     }
 }
 .form {
