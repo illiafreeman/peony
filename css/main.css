@@ -3867,6 +3867,23 @@ body {
     line-height: 18px;
     padding: 16px;
   }
+  .faq_price .accordion {
+    font-size: 20px;
+  }
+  .accordion::before {
+    width: 28px;
+    height: 2px;
+    top: 36px;
+    right: auto;
+    left: 12px;
+  }
+  .accordion::after {
+    height: 28px;
+    width: 2px;
+    top: 23px;
+    right: auto;
+    left: 25px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .adv .container {
