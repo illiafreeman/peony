@@ -276,8 +276,11 @@ body {
 .start__pic {
     min-width: 364px;
 }
-.how, .about, .review, .start, .team, .faq, .form__wrap{
+.how, .about, .review, .start, .team, .faq, .form__wrap, .var{
     padding: 56px 0;
+}
+.desc{
+    padding-top: 56px;
 }
 .about__wrap {
     display: grid;
@@ -418,6 +421,37 @@ body {
 .panel ol {
     padding-left: 16px;
 }
+.tab {
+    padding-top: 60px;
+}
+.welcome_inner{
+    .welcome__descr {
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
+.note__text{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

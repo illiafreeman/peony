@@ -3356,8 +3356,10 @@ body {
   padding: 120px 0;
 }
 .note__text {
-  width: 800px;
+  width: 870px;
   margin: 0 auto;
+  font-size: 28px;
+  line-height: 36px;
 }
 .note .title {
   text-align: center;
@@ -3387,9 +3389,12 @@ body {
   padding-bottom: 22px;
   border-bottom: 1px solid #000;
   margin-bottom: 22px;
+  font-size: 28px;
+  line-height: 36px;
 }
 .var__price {
   color: #D194A5;
+  font-size: 32px;
 }
 .logo_min {
   background: url(../img/logo_dark.png) no-repeat center center/cover;
@@ -3663,8 +3668,11 @@ body {
   .start__pic {
     min-width: 364px;
   }
-  .how, .about, .review, .start, .team, .faq, .form__wrap {
+  .how, .about, .review, .start, .team, .faq, .form__wrap, .var {
     padding: 56px 0;
+  }
+  .desc {
+    padding-top: 56px;
   }
   .about__wrap {
     display: grid;
@@ -3800,6 +3808,16 @@ body {
   }
   .panel ol {
     padding-left: 16px;
+  }
+  .tab {
+    padding-top: 60px;
+  }
+  .welcome_inner .welcome__descr {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .note__text {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {

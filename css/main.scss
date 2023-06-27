@@ -1406,8 +1406,10 @@ body.oh {
     background: #4A5644 url(../img/note_bg.png) center center no-repeat;
     padding: 120px 0;
     &__text{
-        width: 800px;
+        width: 870px;
         margin: 0 auto;
+        font-size: 28px;
+        line-height: 36px;
     }
     .title{
         text-align: center;
@@ -1439,9 +1441,12 @@ body.oh {
         padding-bottom: 22px;
         border-bottom: 1px solid #000;
         margin-bottom: 22px;
+        font-size: 28px;
+        line-height: 36px;
     }
     &__price {
         color: #D194A5;
+        font-size: 32px;
     }
     &__pic {}
 }
