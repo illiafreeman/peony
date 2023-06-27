@@ -468,7 +468,7 @@ body {
 .welcome {
     gap: 40px;
 }
-.info{
+.info, .port{
     padding: 38px 0 0;
 }
 .info__item-date {
@@ -476,7 +476,11 @@ body {
     line-height: 22px;
     padding: 16px;
 }
-
+.port__item-name {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px;
+}
 
 
 
@@ -543,7 +547,12 @@ body {
     line-height: 22px;
     padding: 10px;
 }
-
+.port {
+    gap: 10px;
+}
+.port__item {
+    width: calc(50% - 5px);
+}
 
 }
 
