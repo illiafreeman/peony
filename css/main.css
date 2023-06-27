@@ -3819,6 +3819,41 @@ body {
   .note__text {
     width: 100%;
   }
+  .var__item {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 68px;
+  }
+  .note__text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .var__name {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .var__price {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .var__desc {
+    width: 510px;
+    order: 1;
+  }
+  .var__pic {
+    order: 1;
+  }
+  .form__wrap .title {
+    max-width: 100%;
+  }
+  .welcome {
+    gap: 40px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .adv .container {
@@ -3852,5 +3887,17 @@ body {
   }
   .form .container {
     flex-direction: column;
+  }
+  .tab {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .form .container {
+    gap: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .var__desc, .var__pic {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
