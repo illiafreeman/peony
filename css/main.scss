@@ -857,12 +857,12 @@ main{
     font-weight: 500;
     font-size: 18px;
     background: transparent;
-    position: relative;
     border: 1px solid #9EACA4;
     margin-bottom: 20px;
     transition: $transition;
     font-family: $fontm;
     position: relative;
+    color: #000;
     span{
         display: block;
         font-size: 18px;
@@ -972,6 +972,10 @@ main{
             border: 0;
             padding: 0 20px;
             font-size: 18px;
+            &::placeholder{
+                color: #272727;
+                opacity: 1;
+            }
         }
         .btn{
             margin-top: 22px;

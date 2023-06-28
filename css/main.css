@@ -2827,12 +2827,12 @@ body {
   font-weight: 500;
   font-size: 18px;
   background: transparent;
-  position: relative;
   border: 1px solid #9EACA4;
   margin-bottom: 20px;
   transition: all 0.2s ease-in-out;
   font-family: "Montserrat", sans-serif;
   position: relative;
+  color: #000;
 }
 .accordion span {
   display: block;
@@ -2944,6 +2944,14 @@ body {
   border: 0;
   padding: 0 20px;
   font-size: 18px;
+}
+.form__wrap input::-moz-placeholder {
+  color: #272727;
+  opacity: 1;
+}
+.form__wrap input::placeholder {
+  color: #272727;
+  opacity: 1;
 }
 .form__wrap .btn {
   margin-top: 22px;
@@ -3941,9 +3949,17 @@ body {
   .port__item {
     width: calc(50% - 5px);
   }
+  .intro {
+    background: url(../img/intro.jpg) no-repeat 90% 100px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .var__desc, .var__pic {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .intro {
+    background: url(../img/intro.jpg) no-repeat 80% 100px;
   }
 }/*# sourceMappingURL=main.css.map */

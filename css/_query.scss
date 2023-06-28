@@ -567,6 +567,9 @@ body {
 .port__item {
     width: calc(50% - 5px);
 }
+.intro {
+    background: url(../img/intro.jpg) no-repeat 90% 100px;
+}
 
 }
 
@@ -576,15 +579,18 @@ body {
 .var__desc, .var__pic{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
 }
+
+@media only screen and (max-width: 480px) {
+.intro {
+    background: url(../img/intro.jpg) no-repeat 80% 100px;
+}
+}
+
+
+
+
+
+
+
+
