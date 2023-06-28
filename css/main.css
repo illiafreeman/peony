@@ -3673,9 +3673,6 @@ body {
     min-height: 300px;
     min-width: 361px;
   }
-  .start__pic {
-    min-width: 364px;
-  }
   .how, .about, .review, .start, .team, .faq, .form__wrap, .var {
     padding: 56px 0;
   }
@@ -3719,10 +3716,12 @@ body {
     gap: 40px;
   }
   .start__pic {
-    min-height: 500px;
+    min-height: 700px;
     order: 2;
     background-position: center top;
-    margin: 20px -20px 0;
+    margin: 20px auto 0;
+    width: 364px;
+    min-width: 300px;
   }
   .team__line {
     flex-wrap: wrap;
@@ -3961,5 +3960,12 @@ body {
 @media only screen and (max-width: 480px) {
   .intro {
     background: url(../img/intro.jpg) no-repeat 80% 100px;
+  }
+  .start__pic {
+    min-height: 600px;
+    order: 2;
+    margin: 20px -20px 0 -20px;
+    width: auto;
+    min-width: auto;
   }
 }/*# sourceMappingURL=main.css.map */
