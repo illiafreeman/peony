@@ -2795,6 +2795,12 @@ body {
 }
 .team__item-img {
   margin-bottom: 28px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .team__item-img-bg {
   position: absolute;
