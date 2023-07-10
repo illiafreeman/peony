@@ -2109,8 +2109,8 @@ body {
   box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.11);
 }
 .header.fixed .header-logo {
-  width: 44px;
-  height: 41px;
+  width: 67px;
+  height: 58px;
   background: url(../img/logo_dark.png) no-repeat center center/cover;
 }
 .header.fixed .header-nav__link {
@@ -2129,6 +2129,9 @@ body {
 }
 .header.fixed .container {
   height: 100%;
+}
+.header.fixed .lang {
+  display: none;
 }
 .header__tel {
   position: absolute;
@@ -2921,6 +2924,7 @@ body {
   padding: 82px 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .form__wrap .title {
   font-size: 36px;
@@ -3412,6 +3416,21 @@ body {
   top: 20px;
   left: 20px;
   display: none;
+}
+
+.lang {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  color: #fff !important;
+}
+.lang__item {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 14px;
+}
+.lang__item.act {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1280px) {
