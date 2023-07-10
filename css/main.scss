@@ -1380,8 +1380,16 @@ body.oh {
         width: calc(33.333% - 14px);
         cursor: pointer;
         display: block;
+        &-picwrap{
+            height: 240px;
+            overflow: hidden;
+        }
     }
-    &__item-pic {}
+    &__item-pic {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
     &__item-date {
         text-align: center;
         color: #9EACA4;
