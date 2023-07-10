@@ -3433,6 +3433,10 @@ body {
   text-decoration: underline;
 }
 
+.blog img {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 1280px) {
   #hamburger {
     width: 24px;
