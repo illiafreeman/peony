@@ -501,8 +501,21 @@ body {
 .info__item-picwrap {
     height: 180px;
 }
-
-
+.lang__item{
+    color: #000 !important;
+    
+}
+.lang{
+    left: auto;
+    right: 100px;
+    z-index: 10000;
+    color: #000 !important;
+    top: 40px;
+}
+.header.fixed .lang {
+    display: block;
+    visibility: visible;
+}
 
 
 
