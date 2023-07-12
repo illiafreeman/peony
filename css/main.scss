@@ -1473,7 +1473,7 @@ body.oh {
     &__pic {}
 }
 .logo_min{
-    background: url(../img/logo_dark.png) no-repeat center center / cover;
+    background: url(../img/logo_dark.png) no-repeat center center / contain;
     width: 62px;
     height: 57px;
     position: absolute;
