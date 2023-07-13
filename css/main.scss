@@ -1476,10 +1476,13 @@ body.oh {
     background: url(../img/logo_dark.png) no-repeat center center / contain;
     width: 62px;
     height: 57px;
-    position: absolute;
-    top: 20px;
+    position: absolute !important;
+    top: 20px !important;
     left: 20px;
     display: none;
+    &:hover{
+        position: absolute !important;
+    }
 }
 .lang {
     position: absolute;
